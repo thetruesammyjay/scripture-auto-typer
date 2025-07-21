@@ -216,7 +216,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 ### Development Setup
 ```bash
 # Clone and setup development environment
-git clone https://github.com/yourusername/scripture-auto-typer.git
+git clone https://github.com/thetruesammyjay/scripture-auto-typer.git
 cd scripture-auto-typer
 pip install -r requirements-dev.txt
 pre-commit install
