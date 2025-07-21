@@ -111,61 +111,6 @@ self.recognizer.energy_threshold = 300  # Adjust sensitivity
 self.recognizer.dynamic_energy_threshold = True  # Auto-adjust
 ```
 
-## 📁 Project Structure
-
-```
-scripture-auto-typer/
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── setup.py
-├── build/
-│   ├── build_executable.py
-│   └── installer.nsi
-├── src/
-│   ├── main.py
-│   ├── config/
-│   │   ├── __init__.py
-│   │   └── settings.py
-│   ├── core/
-│   │   ├── __init__.py
-│   │   ├── application.py
-│   │   └── auto_typer.py
-│   ├── audio/
-│   │   ├── __init__.py
-│   │   └── transcriber.py
-│   ├── detection/
-│   │   ├── __init__.py
-│   │   ├── scripture_detector.py
-│   │   └── reference_parser.py
-│   ├── database/
-│   │   ├── __init__.py
-│   │   ├── scripture_db.py
-│   │   └── scripture_loader.py
-│   ├── gui/
-│   │   ├── __init__.py
-│   │   ├── main_window.py
-│   │   └── components/
-│   │       ├── __init__.py
-│   │       ├── control_panel.py
-│   │       └── text_displays.py
-│   └── utils/
-│       ├── __init__.py
-│       ├── logger.py
-│       └── helpers.py
-├── data/
-│   ├── scriptures.db
-│   └── bible_books.json
-├── tests/
-│   ├── __init__.py
-│   ├── test_detection.py
-│   ├── test_database.py
-│   └── test_audio.py
-└── docs/
-    ├── user_guide.md
-    ├── developer_guide.md
-    └── api_reference.md
-```
 
 ## 🔧 Building Standalone Executable
 
